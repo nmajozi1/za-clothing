@@ -1,0 +1,22 @@
+.card-design {
+  width: 100%;
+  height: 500px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40% 0;
+}
+
+.card-parent {
+  top: 50px;
+}
+
+.card-parent:hover {
+  top: 40px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #small-sceen {
+    padding-top: 20px;
+  }
+}
